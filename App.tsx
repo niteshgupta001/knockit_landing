@@ -74,7 +74,6 @@ export default function App() {
           </p>
           <a
             href={ORDER_URL}
-            target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-3 bg-[#02a355] text-white font-semibold text-sm hover:bg-[#018c48] transition-colors"
             style={{ borderRadius: '50px' }}
