@@ -188,6 +188,12 @@ export default function App() {
               />
             </a>
           </div>
+          <div>
+          
+          <h3 className="text-xl md:text-2xl font-bold text-black mb-6 uppercase tracking-wide">
+            100% cashback on first order
+          </h3>
+          </div>
         </div>
       </section>
 
