@@ -67,10 +67,10 @@ export default function App() {
       <section className="bg-white px-4 sm:px-6 lg:px-8 pt-10 pb-8">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black leading-tight mb-3">
-            Delivered at your doorstep
+            Better food in minutes
           </h1>
           <p className="text-base md:text-lg text-[#555] leading-relaxed mb-6 max-w-xl mx-auto">
-            Enjoy delicious snacks, meals, and drinks delivered, prepared in a hygienic environment nearby.
+            Enjoy delicious snacks, meals and drinks prepared in a hygienic environment nearby, delievered at your doorstep in minutes.
           </p>
           <a
             href={ORDER_URL}
@@ -157,7 +157,6 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <a
             href={ORDER_URL}
-            target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-10 py-3 bg-[#02a355] text-white font-bold text-base hover:bg-[#018c48] transition-colors"
             style={{ borderRadius: '8px' }}
@@ -249,7 +248,7 @@ export default function App() {
               <h4 className="font-bold text-sm mb-4">Address</h4>
               <p className="text-xs text-white/80 flex items-start gap-1.5">
                 <MapPin className="w-3 h-3 mt-0.5 shrink-0" />
-                196/11 Ramesh market, East of Kailash New Delhi 110065
+                198/11 Ramesh market, East of Kailash New Delhi 110065
               </p>
             </div>
             <div>
@@ -268,9 +267,6 @@ export default function App() {
           </div>
           <div className="border-t border-white/20 pt-5 flex flex-col md:flex-row items-center justify-between gap-4">
             <span className="text-white/80 text-lg font-bold tracking-tight">knockit</span>
-            <p className="text-[11px] text-white/60 text-center">
-              &copy; {new Date().getFullYear()} Knockit. All rights reserved. Powered by Uengage.
-            </p>
           </div>
         </div>
       </footer>
